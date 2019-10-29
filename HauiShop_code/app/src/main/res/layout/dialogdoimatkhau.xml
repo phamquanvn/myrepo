@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:text="Đổi mật khẩu"
+        android:textColor="#3BF70D"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/edtPassCu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập mật khẩu cũ"
+        android:password="true"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edtPassMoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Nhập mật khẩu"
+        android:password="true"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/edtCheckPassMoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập lại mật khẩu"
+        android:password="true"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDoiPassHuy"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/custombutton"
+            android:text="Hủy"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/btnDoiPassDongY"
+            android:background="@drawable/custombutton"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:text="Đồng ý"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

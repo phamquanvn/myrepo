@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">HauiShop</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_giohang">Giỏ hàng</string>
+    <string name="menu_gallery">Loại sản phẩm</string>
+    <string name="menu_slideshow">Sản phẩm</string>
+    <string name="menu_tools">Hóa đơn</string>
+    <string name="menu_share">Tài khoản</string>
+    <string name="menu_send">Send</string>
+
+    <string name="form_login">Đăng nhập</string>
+    <string name="form_register">Đăng ký</string>
+    <string name="label_forgotpass"><u>Quên mật khẩu?</u></string>
+    <string name="title_activity_maps">Map</string>
+    <string name="doanh_thu_c_a_h_ng">Doanh thu cửa hàng</string>
+    <string name="money">Theo nội tệ</string>
+    <string name="theo_th_ng">Theo Từng tháng</string>
+    <string name="doanh_thu">Doanh thu</string>
+    <string name="communicate">Communicate</string>
+    <string name="th_ng">Tháng</string>
+    <string name="column_chart">biểu đồ cột</string>
+    <string name="round_chart">biểu đồ tròn</string>
+    <string name="h_tr">Hỗ trợ</string>
+    <string name="internet_setting">Internet setting</string>
+    <string name="maps">Maps</string>
+    <string name="call_noew">Gọi ngay</string>
+    <string name="dial">Quay số</string>
+    <string name="choose_number">Chọn số máy gọi:</string>
+    <string name="dummy_tex">Sản phẩm thực tế có thể có màu sắc khác nhau, tùy theo mùa vụ hoặc thời tiết. Được trồng với công nghệ hiện đại, không sử dụng thuốc kích thích tăng trưởng. Cung cấp nhiều chất dinh dưỡng cho cơ thể Chế biến thành nhiều món ăn ngon.</string>
+</resources>

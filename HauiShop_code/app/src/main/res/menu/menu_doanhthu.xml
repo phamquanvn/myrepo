@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_Bar"
+        android:title="@string/column_chart"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_assessment_black_24dp"/>
+    <item android:id="@+id/menu_Pie"
+        android:title="@string/round_chart"
+        app:showAsAction="withText"
+        android:icon="@drawable/ic_pie_chart_black_24dp"/>
+</menu>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".DangKyActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:text="Thông tin khách hàng"
+        android:textColor="#3BF70D"
+        android:textSize="@dimen/font_xxxlarge"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtDKTaiKhoan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Tài khoản"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/edtDKMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Mật khẩu"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtDKReMatKhau"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nhập lại mật khẩu"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/edtDKHoTen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Họ và tên"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDKDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Địa chỉ"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDKDienThoai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Số điện thoại"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/edtDKEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Thư điện tử"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtDKNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Ngày sinh"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:id="@+id/radGioiTinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rdoNam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="Nam" />
+
+        <RadioButton
+            android:id="@+id/rdoNu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nữ" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnDKDangKi"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/custombutton"
+            android:onClick="xuLyDangKy"
+            android:text="@string/form_register"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_xxlarge"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/custombutton"
+            android:onClick="xuLyHuy"
+            android:text="Hủy"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_xxlarge"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>

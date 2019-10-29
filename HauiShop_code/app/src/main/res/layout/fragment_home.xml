@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="170dp"/>
+
+    <LinearLayout
+        android:id="@+id/sliderDot"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/viewPager"
+        android:gravity="center_vertical|center_horizontal"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sliderDot"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="3dp"
+        android:background="#400153"
+        android:gravity="center_horizontal"
+        android:text="Bản tin công nghệ"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lineLV"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="8dp">
+
+        <ListView
+            android:id="@+id/lvTinTuc"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></ListView>
+    </LinearLayout>
+
+</RelativeLayout>

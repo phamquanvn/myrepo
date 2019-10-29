@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".DoanhThu">
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:text="@string/doanh_thu_c_a_h_ng"
+        android:gravity="center"
+        android:textSize="@dimen/s30"
+        android:textColor="#CC7A0018"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/barChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="0dp" />
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/pieChart"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@id/txtTitle"
+        android:layout_marginTop="0dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/barChart"
+        android:textSize="@dimen/s14"
+        android:text="@string/th_ng"/>
+    <TextView
+        android:id="@+id/txtMax"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barChart"
+        android:textSize="22sp"
+        android:textColor="@color/colorAccent"
+        android:layout_margin="@dimen/d10"
+        />
+</RelativeLayout>

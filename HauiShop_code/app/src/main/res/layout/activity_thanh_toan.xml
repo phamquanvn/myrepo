@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".ThanhToanActivity">
+
+    <Button
+        android:id="@+id/btnThanhToanFinal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:onClick="xuLyDangKyFinal"
+        android:text="Thanh toán"
+        android:textColor="@android:color/white"
+        android:background="@drawable/custombutton"
+        android:textSize="22sp" />
+
+    <LinearLayout
+        android:id="@+id/lineThongTin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btnThanhToanFinal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:text="Thiết lập hóa đơn"
+            android:textColor="#3BF70D"
+            android:textSize="@dimen/font_xxxlarge"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edtHDHoTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Họ tên người nhận"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/edtHDDiaChi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Địa chỉ người nhận" />
+
+        <EditText
+            android:id="@+id/edtHDDienThoai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Điện thoại người nhận"
+            android:inputType="number"/>
+
+        <EditText
+            android:id="@+id/edtHDEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email người nhận"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/edtHDNgayLap"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:enabled="false"
+            android:hint="Ngày lập hóa đơn"
+            android:inputType="textPersonName" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tổng: "
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtHDTongTien"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="798500"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" đ"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30dp"
+                android:textStyle="italic" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

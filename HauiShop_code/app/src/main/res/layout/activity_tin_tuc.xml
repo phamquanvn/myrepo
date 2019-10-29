@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".TinTucActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTinTucTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 món ăn đơn giản bạn hướng dẫn làm từ cá trứng"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:src="@drawable/ic_lich" />
+
+                <TextView
+                    android:id="@+id/txttintucNgayLap"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="17/07/2019"
+                    android:textSize="22sp"
+                    android:textStyle="italic" />
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgTintucAnh"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/tintuc1"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/txtTinTucNoiDung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Cá trứng kho tiêu mặn ngọt
+Đây là một món ăn thơm ngon đặc sắc từ cá trứng mà bạn nhất định không được bỏ lỡ, hương vị mặn ngọt đậm đà ăn kèm với cơm sẽ cực kỳ “tốn gạo” đấy nhé!
+
+Nguyên liệu cần chuẩn bị:
+300g cá trứng.
+
+Gia vị gồm: nước mắm, đường, bột nêm, tiêu, nước màu, ớt quả (hoặc ớt bột), hành hoa.
+
+Lưu ý: Cá trứng nên được chọn mua ở các cửa hàng thực phẩm sạch hay siêu thị phân phối hàng đông lạnh uy tín chất lượng như VinMart, có tem kiểm định và nguồn gốc xuất xứ rõ ràng, đảm bảo tươi ngon, sạch sẽ và vô cùng an toàn. Khi chọn cá nên chọn cá trứng có trứng, đừng nhầm lẫn với loại cá trứng không trứng bạn nhé.
+
+Các bước thực hiện:
+Bước 1: Rửa sạch cá trứng, cho ráo nước.
+
+Bước 2: Cho cá trứng vào nồi, dùng 2 muỗng canh nước mắm, 1 muỗng canh đường, 1 muỗng canh bột nêm, 1 muỗng cà phê tiêu, 1/2 muỗng cà phê ớt bột, nước màu vào xóc đều với cá và ướp khoảng 15 đến 20 phút.
+
+Bước 3: Bắc nồi cá đã ướp lên bếp, đun với lửa nhỏ cho tới khi nước cạn dần. Thái một ít hành hoa rắc lên bề mặt cá cho thơm và bắt mắt.
+
+Bước 4: Gắp cá ra dĩa và thưởng thức với cơm trắng dẻo thơm thôi nào!"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

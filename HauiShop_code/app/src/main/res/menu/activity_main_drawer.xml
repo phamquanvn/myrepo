@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_loaiSP"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_gallery" />
+        <item
+            android:id="@+id/nav_sp"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+        <item
+            android:id="@+id/nav_gioHang"
+            android:icon="@drawable/ic_gio_hang"
+            android:title="@string/menu_giohang" />
+        <item
+            android:id="@+id/nav_bill"
+            android:icon="@drawable/ic_bill"
+            android:title="@string/menu_tools" />
+        <item
+            android:id="@+id/nav_Doanhthu"
+            android:icon="@drawable/nav_doanhthu"
+            android:title="@string/doanh_thu" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_TaiKhoan"
+                android:icon="@drawable/ic_user"
+                android:title="@string/menu_share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_location_on_black_24dp"
+                android:title="@string/maps" />
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/ic_call_black_24dp"
+                android:title="@string/h_tr" />
+        </menu>
+    </item>
+    <item android:title="@string/internet_setting"
+        android:icon="@drawable/setting"
+        android:id="@+id/nav_internet"/>
+
+</menu>
